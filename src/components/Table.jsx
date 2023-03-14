@@ -36,6 +36,7 @@ export let Table = () => {
             })
     }
 
+    // eslint-disable-next-line
     useEffect(fetchData, []);
 
     return (
